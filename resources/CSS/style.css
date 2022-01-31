@@ -1,0 +1,55 @@
+body {
+    background-image: url(/Images/pexels-adrien-olichon-2387793.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    font-family: Andale mono; 
+    font-size: 25px;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Horizontal nav bar */
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ h2 {
+    color: white;
+    font-size: 40px;
+    font-family: Andale mono;
+    margin-left: 1rem;
+}
+
+.about-me {
+    color: white;
+    font-family: Andale mono;
+    margin-right: 25rem;
+    margin-left: 1rem;
+    padding-top: 5rem;
+}
+
+
+h3 {
+    color: white;
+    font-family: Andale mono;
+    margin-right: 25rem;
+    margin-left: 1rem
+}
+
