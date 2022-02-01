@@ -1,55 +1,79 @@
 body {
-    background-image: url(/Images/pexels-adrien-olichon-2387793.jpg);
-    background-size: cover;
+    background-color: black;
+    background-position:bottom;
+    background-size:cover;
+    text-align: center;
 }
 
-header h1 {
-    color: white;
-    font-family: Andale mono; 
-    font-size: 25px;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-}
-
+/* Horizontal nav bar */
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;;
 }
-/* Horizontal nav bar */
+
 .nav ul li {
     float: left;
 }
 
 .nav ul li a {
     display: block;
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
+}
+button {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+button:hover {
+    background-image: linear-gradient(120deg, #8ba4df 0%, #f35c61 100%);
+    font-weight: bolder;
+
 }
 
- h2 {
+ h1 {
     color: white;
     font-size: 40px;
-    font-family: Andale mono;
-    margin-left: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
-.about-me {
+.about-us {
     color: white;
-    font-family: Andale mono;
-    margin-right: 25rem;
-    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     padding-top: 5rem;
 }
 
+ video {
+    object-fit: contain;
+}
 
+.supporting-section h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.supporting-section p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.supporting-section img {
+    padding: 3rem;
+}
 h3 {
     color: white;
-    font-family: Andale mono;
-    margin-right: 25rem;
-    margin-left: 1rem
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
 }
 
